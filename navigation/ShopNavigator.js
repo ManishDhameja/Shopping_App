@@ -1,10 +1,9 @@
 import React from 'react';
+import {createStackNavigator} from 'react-navigation-stack';
+import { createDrawerNavigator, DrawerItems } from 'react-navigation-drawer';
 import {
-  createStackNavigator,
-  createDrawerNavigator,
   createSwitchNavigator,
-  createAppContainer,
-  DrawerItems
+  createAppContainer
 } from 'react-navigation';
 import { Platform, SafeAreaView, Button, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
